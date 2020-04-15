@@ -15,8 +15,19 @@ public class logic extends middle {
         {
             //fils stars inthe middle
             if(i==midr)
-            {   
-              arr[i][x]='*';  
+            {  
+                for(x=0;x<arr.length;x++)
+                {
+              arr[i][x]='*'; 
+                }
+            }
+            
+            if(i==midc)
+            {
+              for(x=0;x<arr[0].length;x++)
+                {
+              arr[x][i]='*'; 
+                }  
             }
                 
             

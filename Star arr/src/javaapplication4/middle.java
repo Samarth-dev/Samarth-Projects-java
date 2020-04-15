@@ -8,14 +8,14 @@ public class middle extends input {
     int indexc;
     int midr=2,midc=2;
     
-    void min()
-    {
+    //void min()
+    //{
        //indexr=arr.length;
        //ndexc=arr[0].length;
        //midr=indexr/2;
         
-       System.out.println(indexr+""+indexc);
+       //System.out.println(indexr+""+indexc);
        
-    }
+   // }
     
 }

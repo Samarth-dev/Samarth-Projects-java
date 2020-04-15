@@ -15,8 +15,12 @@ public class JavaApplication4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        middle p=new middle();
-        p.min();
+    
+        output g=new output();
+        g.inti();
+        g.lo();
+        g.out();
+        //g.min();
     }
     
 }
