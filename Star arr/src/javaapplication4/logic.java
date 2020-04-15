@@ -27,7 +27,9 @@ public class logic extends middle {
               for(x=0;x<arr[0].length;x++)
                 {
               arr[x][i]='*'; 
-                }  
+                } 
+           
+            
             }
                 
             

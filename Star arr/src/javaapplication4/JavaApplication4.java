@@ -16,10 +16,16 @@ public class JavaApplication4 {
      */
     public static void main(String[] args) {
     
+        try{
         output g=new output();
         g.inti();
         g.lo();
         g.out();
+        }
+        catch(Exception e)
+        {
+            
+        }
         //g.min();
     }
     
